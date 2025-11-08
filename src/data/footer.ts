@@ -13,13 +13,21 @@ export const footerDetails: {
             text: "Features",
             url: "#features"
         },
+        // {
+        //     text: "Pricing",
+        //     url: "#pricing"
+        // },
+        // {
+        //     text: "Testimonials",
+        //     url: "#testimonials"
+        // },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "Terms of Service",
+            url: "/terms"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Privacy Policy",
+            url: "/privacy"
         }
     ],
     email: 'support@linkwise.app',
@@ -27,7 +35,7 @@ export const footerDetails: {
     socials: {
         // github: 'https://github.com',
         x: 'https://twitter.com/x',
-        facebook: 'https://facebook.com',
+        // facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
         linkedin: 'https://www.linkedin.com',
         // threads: 'https://www.threads.net',

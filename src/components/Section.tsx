@@ -1,21 +1,20 @@
 import SectionTitle from "./SectionTitle";
 
-interface Props {
-    id: string;
-    title: string;
-    description: string;
+interface SectionProps {
+  id: string;
+  title: string;
+  children: React.ReactNode;
 }
 
-const Section: React.FC<React.PropsWithChildren<Props>> = ({ id, title, description, children }: React.PropsWithChildren<Props>) => {
-    return (
-        <section id={id} className="py-10 lg:py-20">
-            <SectionTitle>
-                <h2 className="text-center mb-4">{title}</h2>
-            </SectionTitle>
-            <p className="mb-12 text-center">{description}</p>
-            {children}
-        </section>
-    )
-}
+const Section: React.FC<SectionProps> = ({ id, title, children }) => {
+  return (
+    <section id={id} className="py-12">
+      <SectionTitle>
+        <h2 className="text-center mb-4">{title}</h2>
+      </SectionTitle>
+      {children}
+    </section>
+  );
+};
 
-export default Section
+export default Section;

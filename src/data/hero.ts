@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Smart, Organized, Effortless Knowledge.',
+    subheading: 'Linkwise turns your saved links into organized, searchable knowledge. Collect, query, and uncover insights with your AI-powered bookmarking assistant.',
     centerImageSrc: '/images/hero-mockup.webp',
 }
