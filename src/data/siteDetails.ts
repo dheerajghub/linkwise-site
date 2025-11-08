@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'Linkwise',
+    siteUrl: 'https://linkwise.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Linkwise – Smart Bookmarking & AI Link Organizer for Modern Professionals',
+        description: 'Save, organize, and analyze your links effortlessly with Linkwise — your AI-powered bookmarking assistant that helps you find insights and stay organized.',
     },
     language: 'en-us',
     locale: 'en-US',
