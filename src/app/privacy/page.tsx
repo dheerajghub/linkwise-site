@@ -7,107 +7,101 @@ export const metadata = {
     "Learn how Linkwise collects, uses, and protects your data responsibly.",
 };
 
-export default function PrivacyPage() {
+export default function TermsPage() {
   return (
-    <main className="relative pt-28 pb-24 bg-gradient-to-b from-white via-gray-50 to-white">
-      <div className="absolute inset-0 -z-10 h-full w-full bg-[radial-gradient(100%_100%_at_top_center,rgba(70,70,70,0.05),rgba(255,255,255,0))]" />
+    <main className="max-w-3xl mx-auto px-4 pt-28 pb-12 text-sm leading-relaxed text-gray-700">
+        <p className="mb-8"></p>
+      <h1 className="text-4xl font-bold mb-4">Privacy & Policy</h1>
+      <p className="mb-10">
+        Welcome to Linkwise! By using our services, you agree to comply with the following terms and conditions that govern your use of our platform. Please read them carefully before proceeding.
+      </p>
 
-      <Container>
-        <Section id="privacy" title="">
-          <div className="mx-auto max-w-5xl">
-            <div className="text-center mb-10">
-              <h1 className="text-4xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
-                Privacy Policy
-              </h1>
-              <p className="text-gray-500 mt-2 text-lg">
-                Your privacy is our priority. Here’s how we handle your information.
-              </p>
-            </div>
+      <section className="mb-5">
+        <h2 className="text-lg font-semibold mb-2">1. Use of the Service</h2>
+        <p className="mb-1">
+          Linkwise provides AI-powered bookmarking and organization tools to help you save, manage, and analyze your links efficiently. You agree to use the platform responsibly and only for lawful purposes.
+        </p>
+        <p>
+          - You must not use the platform for any fraudulent or malicious activity.<br /> 
+          - You agree not to reverse engineer, duplicate, or exploit any part of the service.<br /> 
+          - We reserve the right to restrict or terminate access for misuse or policy violations.
+        </p>
+      </section>
 
-            <article className="prose prose-gray prose-base max-w-none lg:prose-lg rounded-xl border border-gray-200 bg-white/70 p-8 shadow-sm backdrop-blur-sm">
-              <h2>1. Introduction</h2>
-              <p>
-                This Privacy Policy describes how <strong>Linkwise</strong> (“we”, “our”, “us”) 
-                collects, uses, and protects your information when you use our 
-                application and website.
-              </p>
+      <section className="mb-5">
+        <h2 className="text-lg font-semibold mb-2">2. Accounts and Security</h2>
+        <p className="mb-1">
+          To access premium features, you must create a Linkwise account and provide accurate information. You are solely responsible for maintaining the confidentiality of your login credentials.
+        </p>
+        <p>
+        - Linkwise is not liable for losses caused by unauthorized account access.<br />
+        - You must notify us immediately of any breach or suspicious activity.<br />
+        - We may suspend or delete accounts that violate our terms.
+        </p>
+      </section>
 
-              <h2>2. Information We Collect</h2>
-              <ul>
-                <li><strong>Account Information:</strong> Name, email, and authentication credentials via Supabase.</li>
-                <li><strong>Usage Data:</strong> Actions performed within the app, link interactions, and analytics to improve experience.</li>
-                <li><strong>Device Data:</strong> Device type, browser version, and usage patterns (collected anonymously).</li>
-              </ul>
+      <section className="mb-5">
+        <h2 className="text-lg font-semibold mb-2">3. Subscriptions and Payments</h2>
+        <p className="mb-1">
+          Linkwise offers both free and premium subscription plans. Payments for premium plans are securely processed through trusted payment partners.
+        </p>
+        <p>
+          - Subscription fees are charged in advance and are non-refundable.<br />
+          - Your plan may automatically renew unless canceled before the renewal date.<br />
+          - We reserve the right to modify pricing or features with prior notice.
+        </p>
+      </section>
 
-              <h2>3. How We Use Information</h2>
-              <ul>
-                <li>Operate, maintain, and improve Linkwise services.</li>
-                <li>Power AI-driven link analysis and insights.</li>
-                <li>Provide customer support and technical assistance.</li>
-                <li>Manage subscriptions and authentication.</li>
-                <li>Ensure security, fraud prevention, and compliance.</li>
-              </ul>
+      <section className="mb-5">
+        <h2 className="text-lg font-semibold mb-2">4. Intellectual Property</h2>
+        <p className="mb-1">
+          All trademarks, code, design, and content on Linkwise belong to the company and are protected under applicable intellectual property laws.
+        </p>
+        <p>
+          - You may not copy, reproduce, or distribute any Linkwise content without written permission.<br />  
+          - Any unauthorized use of our assets or branding will lead to legal action.<br /> 
+          - All user-generated content remains owned by the user but may be used within the service’s functionality.
+        </p>
+      </section>
 
-              <h2>4. AI Data Handling</h2>
-              <p>
-                Linkwise uses AI to summarize and analyze your saved links. 
-                We may temporarily process snippets of content for embeddings 
-                or retrieval but never sell or share your link data for marketing.
-              </p>
+      <section className="mb-5">
+        <h2 className="text-lg font-semibold mb-2">5. Termination</h2>
+        <p className="mb-1">
+          We may suspend or terminate your access to Linkwise at any time for violations of these terms or other reasons deemed necessary.
+        </p>
+        <p>
+          - Upon termination, your access to all services and stored data will cease.<br />  
+          - You can request permanent deletion of your data through your account settings.<br />  
+          - Outstanding payments or obligations remain enforceable after termination.
+        </p>
+      </section>
 
-              <h2>5. Data Sharing</h2>
-              <ul>
-                <li>Supabase and OpenAI — for storage and AI features.</li>
-                <li>Payment processors — for managing subscriptions.</li>
-                <li>Legal authorities — if required by law.</li>
-              </ul>
+      <section className="mb-5">
+        <h2 className="text-lg font-semibold mb-2">6. Limitation of Liability</h2>
+        <p className="mb-1">
+          Linkwise is provided “as is” without warranties of any kind. We are not responsible for damages or data loss resulting from the use of our services.
+        </p>
+        <p>
+          - We do not guarantee uninterrupted access or error-free operation.<br /> 
+          - You assume full responsibility for how you use and rely on Linkwise.<br /> 
+          - Our total liability shall not exceed the amount you paid for your subscription.
+        </p>
+      </section>
 
-              <h2>6. Data Security</h2>
-              <p>
-                We use bank-level encryption, secure authentication, and 
-                best practices for data protection. Only essential operations 
-                access your stored data.
-              </p>
+      <section className="mb-5">
+        <h2 className="text-lg font-semibold mb-2">7. Changes to These Terms</h2>
+        <p className="mb-1">
+          We may update these terms periodically to reflect product, policy, or legal changes. Updates will take effect immediately upon posting.
+        </p>
+        <p>
+          - You will be notified of significant updates via email or in-app messages.<br /> 
+          - Continued use after updates implies acceptance of the revised terms.
+        </p>
+      </section>
 
-              <h2>7. Your Rights</h2>
-              <ul>
-                <li>Access and export your saved data.</li>
-                <li>Request deletion of your account.</li>
-                <li>Update preferences anytime via settings.</li>
-              </ul>
-
-              <h2>8. Cookies and Analytics</h2>
-              <p>
-                We use minimal cookies and analytics solely for understanding usage 
-                and performance within the app. No personal browsing is tracked.
-              </p>
-
-              <h2>9. Children’s Privacy</h2>
-              <p>
-                Linkwise is not intended for users under 16. We do not knowingly 
-                collect data from children.
-              </p>
-
-              <h2>10. Policy Updates</h2>
-              <p>
-                This policy may change over time. Updates will be posted here 
-                with a new “Last Updated” date.
-              </p>
-
-              <h2>11. Contact Us</h2>
-              <p>
-                Questions or concerns? Reach us at{" "}
-                <a href="mailto:support@linkwise.app">support@linkwise.app</a>.
-              </p>
-
-              <hr className="my-8" />
-              <p className="text-sm text-gray-500 text-center">
-                <em>Last updated: November 2025</em>
-              </p>
-            </article>
-          </div>
-        </Section>
-      </Container>
+      <p className="mt-8 text-gray-500 text-xs">
+        Last updated: November 2025
+      </p>
     </main>
   );
 }
